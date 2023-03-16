@@ -15,6 +15,7 @@ const endpoints: TEndoint = {
   [CHAIN.POLYGON]: "http://public.tdex.cz/get_volumes_list?chain_id=137",
 };
 
+
 interface IVolumeall {
   date: string;
   volume: number;
